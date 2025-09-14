@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import js from '@eslint/js';
 
 export default [
