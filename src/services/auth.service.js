@@ -4,7 +4,7 @@ import { eq } from 'drizzle-orm';
 import { db } from '#config/database.js';
 import { users } from '#models/user.model.js';
 
-export const hashPass = async (password) => {
+export const hashPass = async password => {
   try {
     return await bcrypt.hash(password, 10);
   } catch (error) {
@@ -29,7 +29,7 @@ export const authenticateUser = async (email, password) => {
       .from(users)
       .where(eq(users.email, email))
       .limit(1);
-    
+
     if (!user) {
       throw new Error('User not found');
     }
@@ -60,10 +60,10 @@ export const createUser = async ({ name, email, password, role = 'user' }) => {
       throw new Error('User with this email already exists');
     }
     const password_hash = await hashPass(password);
-  
+
     const [newUser] = await db
       .insert(users)
-      .values({ name, email, password:password_hash, role })
+      .values({ name, email, password: password_hash, role })
       .returning({
         id: users.id,
         name: users.name,

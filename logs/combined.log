@@ -68,3 +68,16 @@
 {"level":"info","message":"User Registered Successfully: admin@gmail.com","service":"acquisitions-api","timestamp":"2025-09-13T19:48:42.588Z"}
 {"level":"info","message":"::1 - - [13/Sep/2025:19:48:42 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 112 \"-\" \"PostmanRuntime/7.46.0\"","service":"acquisitions-api","timestamp":"2025-09-13T19:48:42.592Z"}
 {"level":"info","message":"User Created Successfully","service":"acquisitions-api","timestamp":"2025-09-14T05:56:49.817Z"}
+{"level":"info","message":"Hello From acquisitions","service":"acquisitions-api","timestamp":"2025-09-14T05:59:52.697Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:05:59:52 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-09-14T05:59:52.704Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:05:59:52 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-09-14T05:59:52.723Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:06:00:05 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.46.0\"","service":"acquisitions-api","timestamp":"2025-09-14T06:00:05.036Z"}
+{"level":"info","message":"User authenticated successfully: admin@gmail.com","service":"acquisitions-api","timestamp":"2025-09-14T06:00:20.832Z"}
+{"level":"info","message":"User signed in successfully: admin@gmail.com","service":"acquisitions-api","timestamp":"2025-09-14T06:00:20.836Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:06:00:20 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 114 \"-\" \"PostmanRuntime/7.46.0\"","service":"acquisitions-api","timestamp":"2025-09-14T06:00:20.837Z"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api","timestamp":"2025-09-14T06:00:27.602Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:06:00:27 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.46.0\"","service":"acquisitions-api","timestamp":"2025-09-14T06:00:27.603Z"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api","timestamp":"2025-09-14T06:00:30.028Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:06:00:30 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.46.0\"","service":"acquisitions-api","timestamp":"2025-09-14T06:00:30.029Z"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api","timestamp":"2025-09-14T06:00:31.091Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:06:00:31 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.46.0\"","service":"acquisitions-api","timestamp":"2025-09-14T06:00:31.092Z"}
